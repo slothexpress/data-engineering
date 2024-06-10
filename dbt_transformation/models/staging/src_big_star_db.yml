@@ -4,8 +4,8 @@ sources:
     schema: raw_data # name of dataset in the project
     freshness:
       warn_after:
-      count: 24
-      period: hour
+        count: 24
+        period: hour
     loaded_at_field: "_airbyte_normalized_at"
     tables: # tables to include as part of our sources
       - name: customers
